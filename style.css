@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+img{
+    width: 100vw;
+    object-fit: cover;
+}
+
+#navBar{
+    width: 100vw;
+    height: 5vw;
+    position: absolute;
+}
+.btn{
+    position: inherit;
+    width: 5vw;
+    height: 3.6vw;
+    opacity: 50%;
+}
+
+.btn1{
+    left: 76vw;
+}
+.btn2{
+    left: 81vw;
+}
+.btn3{
+    left: 86vw;
+}
+
+.target{
+    opacity: 50%;
+    position: absolute;
+    width: 400px;
+    height: 100px;
+}
+.target1{
+    top: 310vw;
+}
+.target2{
+    top: 420vw;
+}
+.target3{
+    top: 810vw;
+}
