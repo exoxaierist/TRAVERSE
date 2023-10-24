@@ -8,10 +8,15 @@ img{
     object-fit: cover;
 }
 
+.navImage{
+    top: 0px;
+    position:fixed;
+}
 #navBar{
+    top: 0px;
     width: 100vw;
     height: 5vw;
-    position: absolute;
+    position:fixed;
 }
 .btn{
     position: inherit;
