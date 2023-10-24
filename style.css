@@ -1,11 +1,45 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap");
+
 *{
     margin: 0px;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", "Noto Sans KR", sans-serif;
 }
 img{
     width: 100vw;
     object-fit: cover;
+}
+
+.bck{
+    width: 100vw;
+    height: 3vw;
+    position: fixed;
+    background-color: white;
+}
+.container{
+    position: fixed;
+    top: 0px;
+    left: 10vw;
+    width: 80vw;
+    display: flex;
+    height: 3vw;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.container img{
+    width: 7vw;
+}
+.btnContainer{
+    height: 3vw;
+    display: flex;
+    justify-content: right;
 }
 
 .navImage{
@@ -19,20 +53,16 @@ img{
     position:fixed;
 }
 .btn{
-    position: inherit;
     width: 5vw;
-    height: 3.6vw;
-    opacity: 50%;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    user-select: none;
+    transition-duration: 0.1s;
 }
-
-.btn1{
-    left: 76vw;
-}
-.btn2{
-    left: 81vw;
-}
-.btn3{
-    left: 86vw;
+.btn:hover{
+    font-weight: 600;
 }
 
 .target{
@@ -42,7 +72,7 @@ img{
     height: 100px;
 }
 .target1{
-    top: 285vw;
+    top: 284vw;
 }
 .target2{
     top: 340vw;
