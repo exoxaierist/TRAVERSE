@@ -40,6 +40,7 @@ img{
     height: 3vw;
     display: flex;
     justify-content: right;
+    gap: 5vw;
 }
 
 .navImage{
@@ -53,13 +54,14 @@ img{
     position:fixed;
 }
 .btn{
-    width: 5vw;
+    
     height: 3vw;
     display: flex;
     align-items: center;
     justify-content: right;
     user-select: none;
     transition-duration: 0.1s;
+    font-size: 1vw;
 }
 .btn:hover{
     font-weight: 600;
